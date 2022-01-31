@@ -1,0 +1,446 @@
+body{
+    font-family: 'Montserrat';
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+/*CABECERA*/
+
+.container{
+    width: 85%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    letter-spacing: 10px;
+    font-size: 1.5em;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: #4a4a4a;
+}
+
+.main {
+    padding-top: 11rem;
+}
+/* MAIN */
+
+.main{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    display: flex;
+}
+
+.container-texto{
+    width: 70%;
+    margin-bottom: 20px;
+}
+p{
+    width: 100%;
+    text-align: justify;
+}
+
+.container-img{
+    width: 60%;
+    background: url(../images/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    margin-bottom: 20px;
+}
+
+/* PIE DE PAGINA */
+footer{
+    bottom: 0;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    background: #f2f2f2;
+    color: black;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-footer1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1{
+    max-width: 400px;
+}
+
+.column1 h1{
+    font-size: 22px;
+}
+
+.column1 p{
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+    margin-right: 30px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.column2{
+    max-width: 400px; 
+}
+
+.column2 h1{
+    font-size: 22px;
+}
+
+.column2 .row1{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row1 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row1 label{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.row1 label a{
+    color: black;
+}
+
+.column3{
+    max-width:  400px;
+}
+
+.column3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 160px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+.container-footer2{
+    width: 100%;
+    background: #101010;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.copyright{
+    color: #c7c7c7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+
+/*RECETAS*/
+
+.receta__1{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.receta__1 img{
+    left: 0px;
+    height: 440px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+/* PEDIDOS */
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 9rem; 
+    color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.contenedor-postre{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.tarjeta{
+    border-radius: 10px;
+    text-align: left;
+    min-width: 200px;
+    padding:20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.tarjeta .textos{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.banner{
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+}
+
+/*RECETAS*/
+
+.receta__1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 12rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.receta__columna1{
+    width: 100%;
+}
+
+.receta__img{
+    width: 100%;
+    background: url(../images/postre5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/*NOSOTROS*/
+
+.main-who{
+    margin: 12rem;
+}
+
+/*REGISTRO*/
+
+.container-form{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.container-form h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 95%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    color: white;
+}
+
+.container-form p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.container-form a{
+    color: white;
+    text-decoration: none;
+}
+
+.container-form a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.container-form .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 800px){
+    
+    /*HEADER*/
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .navigation ul.show{
+        display: block;
+    }
+    .navigation ul li{
+        display: block;
+    }
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .navigation ul li a:hover{
+        background: #4a4a4a;
+    }
+    
+    .main{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 20px;
+        display: block;
+    }
+
+    /*INDEX*/
+    .container-img{
+        width: 100%;
+        background: url(../images/img2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+
+    .container-texto{
+        width: 100%;
+        margin-top: 15rem;
+    }
+    .container-texto p{
+        width: 100%;
+        text-align: justify;
+    }
+    
+    /*RECETAS*/
+
+    .receta__1{
+        width: 90%;
+        margin-top: 50rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    /*FOOTER*/
+
+    .container-footer-all{
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        padding: 30px;
+    }
+
+    .container-footer1{
+        width: 90%;
+        margin: 0px auto;
+        display: grid;
+    }
+}
